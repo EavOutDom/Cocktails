@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import About from "../pages/about";
-import Home from "../pages/home";
+
 const Navbar = () => {
     return (
         <div className={"w-full bg-[bisque] py-8 px-4 md:px-12 shadow-lg"}>
