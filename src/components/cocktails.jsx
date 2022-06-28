@@ -13,7 +13,7 @@ const Cocktails = ({
                 "bg-[bisque] rounded-md shadow-md md:hover:shadow-2xl duration-500"
             }
         >
-            <Link to={`cocktails/${idDrink}`}>
+            <Link to={`/Cocktails/cocktails/${idDrink}`}>
                 <img
                     className={"w-full object-cover rounded-t-md"}
                     src={strDrinkThumb}
