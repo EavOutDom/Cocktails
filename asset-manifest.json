@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Cocktails/static/css/main.dec1759d.css",
+    "main.js": "/Cocktails/static/js/main.8b969624.js",
+    "index.html": "/Cocktails/index.html",
+    "main.dec1759d.css.map": "/Cocktails/static/css/main.dec1759d.css.map",
+    "main.8b969624.js.map": "/Cocktails/static/js/main.8b969624.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dec1759d.css",
+    "static/js/main.8b969624.js"
+  ]
+}
