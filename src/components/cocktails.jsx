@@ -10,7 +10,7 @@ const Cocktails = ({
     return (
         <div
             className={
-                "bg-[bisque] rounded-md shadow-md md:hover:shadow-2xl duration-500"
+                "bg-[bisque] rounded-md shadow-md md:hover:shadow-2xl duration-500 transition-all delay-300 ease-out hover:transition-all hover:delay-300 hover:scale-110"
             }
         >
             <Link to={`/Cocktails/cocktails/${idDrink}`}>

@@ -13,7 +13,7 @@ export const fetchCocktails = createAsyncThunk(
         }
     }
 );
-
+ 
 export const fetchSingleCocktails = createAsyncThunk(
     "cocktails/fetchSingleCocktails",
     async (id) => {
