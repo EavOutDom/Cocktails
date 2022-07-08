@@ -8,12 +8,12 @@ import SingleCocktails from "../pages/single-cocktails";
 import Error from "../pages/error";
 const App = () => {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/Cocktails">
             <Navbar />
             <Routes>
-                <Route path={"/Cocktails"} element={<Home />} />
-                <Route path={"/Cocktails/about"} element={<About />} />
-                <Route path={"/Cocktails/cocktails/:id"} element={<SingleCocktails />} />
+                <Route path={"/"} element={<Home />} />
+                <Route path={"/about"} element={<About />} />
+                <Route path={"/single-cocktail/:id"} element={<SingleCocktails />} />
                 <Route path={"*"} element={<Error />} />
             </Routes>
         </BrowserRouter>

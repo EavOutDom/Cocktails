@@ -10,10 +10,10 @@ const Cocktails = ({
     return (
         <div
             className={
-                "bg-[bisque] rounded-md shadow-md md:hover:shadow-2xl duration-500 transition-all delay-300 ease-out hover:transition-all hover:delay-300 hover:scale-110"
+                "bg-[bisque] rounded-md shadow-md md:hover:shadow-2xl transition-all ease-out hover:transition-all hover:duration-300 md:hover:scale-[1.05] duration-300"
             }
         >
-            <Link to={`/Cocktails/cocktails/${idDrink}`}>
+            <Link to={`/single-cocktail/${idDrink}`}>
                 <img
                     className={"w-full object-cover rounded-t-md"}
                     src={strDrinkThumb}
